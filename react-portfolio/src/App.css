@@ -40,3 +40,91 @@
 .read-the-docs {
   color: #888;
 }
+
+/* New active link style */
+nav a.active {
+  color: blue; /* Change this to your desired highlight color */
+  font-weight: bold; /* Optional: make it bold */
+}
+
+/* About Me Section Styles */
+#aboutme {
+  text-align: center;
+  padding: 2rem;
+}
+
+.avatar {
+  width: 150px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 1rem; /* Space below the image */
+}
+
+h2 {
+  font-size: 2rem; /* Adjust the heading size */
+  margin-bottom: 1rem; /* Space below the heading */
+}
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.portfolio-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.portfolio-image {
+  width: 100%;
+  max-width: 200px; /* Adjust as needed */
+  height: auto;
+}
+
+.portfolio-links a {
+  display: block;
+  margin: 10px 0;
+  color: blue;
+  text-decoration: underline;
+}
+
+#contact {
+  text-align: center;
+  padding: 2rem;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the form */
+}
+
+#contact-form div {
+  margin-bottom: 1rem; /* Space between fields */
+}
+
+#contact-form label {
+  margin-bottom: 0.5rem; /* Space between label and input */
+  font-weight: bold; /* Optional: make labels bold */
+}
+
+#contact-form input,
+#contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  width: 100%; /* Full width */
+}
+
+#contact-form button {
+  padding: 0.5rem 1rem;
+  background-color: #646cff; /* Button color */
+  color: white; /* Text color */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+#contact-form button:hover {
+  background-color: #5a5eff; /* Darker shade on hover */
+}
