@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Content from './components/Content.jsx';
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Header />
       <main>
-        <Switch>
+        <Routes>
           <Route path="/aboutme" component={AboutMe} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/contact" component={Contact} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" exact>
             <Content />
           </Route>
-        </Switch>
+        </Routes>
       </main>
       <Footer />
     </Router>
